@@ -48,6 +48,8 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
+            await message.reply_sticker(
+                "CAACAgQAAxkBAANlY-8T3DH_f4W5G0epCHYwEj68IXkAApINAAKg8ylTZIjlbuvUoPsuBA")
             return await message.reply_text(
                 _["help_1"], reply_markup=keyboard
             )
