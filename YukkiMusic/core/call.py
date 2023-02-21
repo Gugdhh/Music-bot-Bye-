@@ -295,15 +295,15 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**No Active Voice Chat Found**\n\nPlease make sure group's voice chat is enabled. If already enabled, please end it and start fresh voice chat again and if the problem continues, try /restart"
+                    "**ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ғᴏᴜɴᴅ**\n\nᴘʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ɢʀᴏᴜᴘ's ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪs ᴇɴᴀʙʟᴇᴅ. ɪғ ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ, ᴘʟᴇᴀsᴇ ᴇɴᴅ ɪᴛ ᴀɴᴅ sᴛᴀʀᴛ ғʀᴇsʜ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɢᴀɪɴ ᴀɴᴅ ɪғ ᴛʜᴇ ᴘʀᴏʙʟᴇᴍ ᴄᴏɴᴛɪɴᴜᴇs, ᴛʀʏ /restart"
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
-                "**Assistant Already in Voice Chat**\n\nSystems have detected that assistant is already there in the voice chat, this issue generally comes when you play 2 queries together.\n\nIf assistant is not present in voice chat, please end voice chat and start fresh voice chat again and if the  problem continues, try /restart"
+                "**ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**\n\nsʏsᴛᴇᴍs ʜᴀᴠᴇ ᴅᴇᴛᴇᴄᴛᴇᴅ ᴛʜᴀᴛ ᴀssɪsᴛᴀɴᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴛʜᴇʀᴇ ɪɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ, ᴛʜɪs ɪssᴜᴇ ɢᴇɴᴇʀᴀʟʟʏ ᴄᴏᴍᴇs ᴡʜᴇɴ ʏᴏᴜ ᴘʟᴀʏ 2 ǫᴜᴇʀɪᴇs ᴛᴏɢᴇᴛʜᴇʀ.\n\nɪғ ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ᴘʀᴇsᴇɴᴛ ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ, ᴘʟᴇᴀsᴇ ᴇɴᴅ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ sᴛᴀʀᴛ ғʀᴇsʜ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɢᴀɪɴ ᴀɴᴅ ɪғ ᴛʜᴇ  ᴘʀᴏʙʟᴇᴍ ᴄᴏɴᴛɪɴᴜᴇs, ᴛʀʏ /restart"
             )
         except TelegramServerError:
             raise AssistantErr(
-                "**Telegram Server Error**\n\nTelegram is having some internal server problems, Please try playing again.\n\n If this problem keeps coming everytime, please end your voice chat and start fresh voice chat again."
+                "**ᴛᴇʟᴇɢʀᴀᴍ sᴇʀᴠᴇʀ ᴇʀʀᴏʀ**\n\nᴛᴇʟᴇɢʀᴀᴍ ɪs ʜᴀᴠɪɴɢ sᴏᴍᴇ ɪɴᴛᴇʀɴᴀʟ sᴇʀᴠᴇʀ ᴘʀᴏʙʟᴇᴍs, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ.\n\n ɪғ ᴛʜɪs ᴘʀᴏʙʟᴇᴍ ᴋᴇᴇᴘs ᴄᴏᴍɪɴɢ ᴇᴠᴇʀʏᴛɪᴍᴇ, ᴘʟᴇᴀsᴇ ᴇɴᴅ ʏᴏᴜʀ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɴᴅ sᴛᴀʀᴛ ғʀᴇsʜ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀɢᴀɪɴ."
             )
         await add_active_chat(chat_id)
         await mute_off(chat_id)
