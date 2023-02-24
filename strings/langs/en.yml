@@ -14,7 +14,7 @@ tg_2 : "ғᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴍᴇᴅɪᴀ ғ
 
 # Core - Call.py
 call_1 : "ʙᴏᴛ ʀᴇǫᴜɪʀᴇs **Admin** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ."
-call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
+call_2 : "ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ, ᴘʟᴇᴀsᴇ ᴜɴʙᴀɴ.\n\n**ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀɴᴀᴍᴇ:** @{0}\n**ᴀssɪsᴛᴀɴᴛ ɪᴅ:** {1}"
 call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
 call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
 call_5 : "ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴡɪʟʟ ʙᴇ ᴊᴏɪɴɪɴɢ in 5 sᴇᴄᴏɴᴅs..Please ᴡᴀɪᴛ!"
@@ -237,10 +237,10 @@ stream_4 : "📡 **sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ** 💡\n\n**🏷ᴛ�
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "✦ᴄʟᴏsᴇ✦"
-CLOSEMENU_BUTTON  : "◇ᴄʟᴏsᴇ ᴍᴇɴᴜ◇"
-BACK_BUTTON : "♧ʙᴀᴄᴋ♧"
-UNBAN_BUTTON : "○ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ○"
+CLOSE_BUTTON  : "↻ ᴄʟᴏsᴇ ↻"
+CLOSEMENU_BUTTON  : "↻ ᴄʟᴏsᴇ ↻"
+BACK_BUTTON : "◁"
+UNBAN_BUTTON : "• ᴜɴʙᴀɴ •"
 
 #Lyrics
 L_B_1 : "🚀 ᴄʜᴇᴄᴋᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
