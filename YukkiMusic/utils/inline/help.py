@@ -111,7 +111,7 @@ def private_help_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_1"],
-                url=f"https://t.me/{app.username}?start=help",
+                url=f"https://t.me/MISS_KHUSHI_ROBOT?start=help",
             ),
         ],
     ]
