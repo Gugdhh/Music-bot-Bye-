@@ -69,7 +69,7 @@ async def helper_private(
         _ = get_string(language)
         keyboard = help_pannel(_)
         await update.reply_sticker("CAACAgQAAxkBAAEGL5VjVmOccNuPn8IM4ec4X0erJk_a3QACaQkAAn1zuVOZb_I-PAy8uCoE")
-        await update.reply_photo(
+        await meassage.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
 
